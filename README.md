@@ -14,6 +14,19 @@ As a tech company with limited experience in the film industry, Microsoft faces 
 This project solves these challenges by analyzing industry trends and delivering actionable recommendations based on data.
 
 ---
+## Data Preparation Steps
+- Loaded and merged IMDb and The Numbers datasets.
+
+- Filtered top 10 genres based on frequency.
+
+- Exploded multi-genre rows for genre-level analysis.
+
+- Assigned experience levels to directors and actors.
+
+- Binned production budgets and worldwide gross into Low, Medium, and High categories.
+
+- Merged and cleaned all relevant tables for analysis.
+
 
 ##  Objectives
 - Analyze what film genres and styles are both **highly rated** and **financially successful**.
@@ -35,21 +48,30 @@ This project solves these challenges by analyzing industry trends and delivering
 
 ---
 
+---![download](https://github.com/user-attachments/assets/b4bb93bc-b961-4ce0-8da1-ac4110b0deb1)
+
 ## 📂 Dataset
 The data used for this project includes:
 - movie_budgets.csv
 - im.db database
 - Revenue (Box Office Gross)
-
----![download](https://github.com/user-attachments/assets/b4bb93bc-b961-4ce0-8da1-ac4110b0deb1)
-
-
+- 
 ## Technologies Used
 - Python
 - Pandas & NumPy
 - Matplotlib & Seaborn
 - Jupyter Notebook
 - Git & GitHub
+## ANOVA test to assess significance
+
+ **Director, Writer, and Actor Influence**
+### Steps:
+
+- Calculated number of movies each director has made (experience count)
+
+- Mapped experience to names
+
+- Filtered data to top 10 genres for focused analysis
 
 ---
 
