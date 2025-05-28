@@ -74,6 +74,8 @@ The data used for this project includes:
 - Filtered data to top 10 genres for focused analysis
 
 ---
+Below is my link to tableua Dashboard
+https://public.tableau.com/views/Microsoft_17483329201910/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ##  How to Run 
 Clone this repo:
